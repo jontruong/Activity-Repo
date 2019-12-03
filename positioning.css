@@ -1,0 +1,21 @@
+.box1 {
+    position:fixed;
+    width: 100px;
+    padding: 50px;
+    margin: 20px;
+    background-color:#999;
+  }
+.box2{
+    position: relative;
+    width:200px;
+    padding: 50px;
+    margin:20px;
+    Background-color:#999;
+}
+.box3{
+    position:absolute;
+    width:200px;
+    padding:50px;
+    margin:20px;
+    Background-color:#eee;
+}

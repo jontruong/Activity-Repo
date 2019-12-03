@@ -1,0 +1,9 @@
+a:focus{ background-color:black;
+
+}
+.two:active{
+    background-color:green;
+}
+.three:hover{
+    Background-color: pink;
+}
