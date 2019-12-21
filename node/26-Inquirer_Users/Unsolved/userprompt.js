@@ -51,7 +51,7 @@ inquirer
 .then(function(inquirerResponse){
     if(inquirerResponse.confirm){
         console.log("\nWelcome " + inquirerResponse.color);
-        console.log("Your favorite cuisine is " + inquirerResponse.cuisine + " and you like to drink" + inquirerResponse.drinks);
+        console.log("Your favorite cuisine is " + inquirerResponse.cuisine + " and you like to drink " + inquirerResponse.drinks);
     }
     else{
         console.log("Good luck" + inquirerResponse.color);

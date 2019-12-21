@@ -1,0 +1,15 @@
+1) require packages/ dependencies
+    a. axios
+    b. fs
+    c. inquirer
+2)create a variable to store the operation (show/actor)
+3)create another variable to store the search term
+4)Create a function to search for a show
+5)Create another function to search for an actor
+6)Console.log the results
+7)Write the results to a log file
+
+Functions:
+findActor
+findShow
+log

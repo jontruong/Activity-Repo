@@ -9,23 +9,23 @@ var fs = require('fs');
 // });
 
 // data= text file
-// fs.readFile('chill.txt','utf8', function(err,data){
-//     if(err){
-//         return console.log(err);
-//     }
+fs.readFile('chill.txt','utf8', function(err,data){
+    if(err){
+        return console.log(err);
+    }
 
-// //     console.log(data);
+//     console.log(data);
 
 
-// var content = data.split(',');
-// // for (let i = 0; i < content.length;i++){
-// //     console.log(content[i]);
-// // }
-// content.forEach(function(element){
-// console.log(element);
-// })
+var content = data.split(',');
+// for (let i = 0; i < content.length;i++){
+//     console.log(content[i]);
+// }
+content.forEach(function(element){
+console.log(element);
+})
 
-// })
+})
 
 
 var data= process.argv[2];

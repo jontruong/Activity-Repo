@@ -113,7 +113,7 @@ cats.destroyFurniture = function(){
         this.sleepy = true;
     }
 }
-cats.buyFurniture = funciton(){
+cats.buyFurniture = function(){
     this.houseCondition += 50;
     console.log("Are you sure aboyt")
 }

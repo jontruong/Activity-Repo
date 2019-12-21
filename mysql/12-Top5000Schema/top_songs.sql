@@ -1,0 +1,22 @@
+DROP DATABASE IF EXISTS top_songsDB;
+
+CREATE DATABASE top_songsDB;
+
+USE top_songsDB;
+
+CREATE TABLE top_songs (
+id INT AUTO_INCREMENT NOT NULL,
+rank INT NOT NULL,
+artist VARCHAR(50)NOT NULL,
+track VARCHAR(50),
+year INTEGER(4),
+rating DECIMAL(5,3),
+us_rating DECIMAL(5,3) NOT NULL,
+uk_rating DECIMAL(5,3)NOT NULL,
+eu_rating DECIMAL(5,3)NOT NULL,
+aus_rating DECIMAL(5,3)NOT NULL,
+PRIMARY KEY (id)
+);
+
+SELECT * FROM top_songs;
+
