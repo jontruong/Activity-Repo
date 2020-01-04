@@ -38,21 +38,22 @@ app.get("/", function(req, res) {
 app.get("/api/characters", function(req, res) {
   return res.json(characters);
 });
+// returns the json for characters
 
-// What does this route do?
+// What does this route do? Gets the input 
 app.get("/api/characters/:character", function(req, res) {
-  // What does this code do?
+  // What does this code do? console logs the input
   var chosen = req.params.character;
   console.log(chosen);
 
-  // What does this code do?
+  // What does this code do? compares the input and pulls out the character
   for (var i = 0; i < characters.length; i++) {
     if (chosen === characters[i].routeName) {
       return res.json(characters[i]);
     }
   }
 
-  // What does this code do?
+  // What does this code do? returns no character found if there isn't a character found
   return res.send("No character found");
 });
 
